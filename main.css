@@ -1,4 +1,32 @@
 * {
 	box-sizing: border-box;
 }
+/* ====BASE STYLES====*/
 
+body {
+	background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png') repeat center;
+  font-family: 'Libre Baskerville', sans-serif;
+	font-size: 1.125rem;
+  line-height: 1.5;
+  color: #444349;
+	
+}
+
+h1,
+h2 {
+  font-family: 'Great Vibes', sans-serif;
+}
+	
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+	
+	
+	
+	
+	
