@@ -1,87 +1,153 @@
-/* =============================
+/*General Styles*/
 
-    GENERAL STYLES
-
-=============================*/
-
-* {
-  box-sizing: border-box;
+*{
+    box-sizing:border-box;
 }
 
-/* Single-direction margin declaration to establish vertical rhythm. */
-h1,h2,h3,
-ul,ol,
-p,
-img {
-    margin-bottom: 1.5rem;
+
+/*blokk szintű elemek*/
+h1, h2, h3, ul, li, p, img{
+    margin-bottom:1rem;
 }
 
-body {
-  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png') repeat center;
-  font-family: 'Libre Baskerville', serif;
-  font-size: 1.125rem;
-  line-height: 1.5;
-  color: #444349;
-}
-
-.locations,
+section, 
+.location, 
 .program,
 .gifts,
 .faq,
-.contact {
-  width: 95%;
-  margin: 1.5rem auto;
-  padding: .5rem 1rem;
-  text-align: center;
+.contact{
+    width:95%;
+    margin: 1.5rem auto;
+    padding:1rem;
+    text-align:center;
 }
 
-h1,
-h2 {
-  font-family: 'Great Vibes', cursive;
+body{
+    background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png')repeat center;
+    font-family:'Libre Baskerville', cursive;
+    font-size:1.125rem;
+    line-height:1.5;
+    color:rgb(68, 67, 73);
 }
 
-h2 {
-  font-size: 3rem;
+ul{
+  list-style:none;
 }
 
-h3 {
-  font-size: 1.5rem;
+a{
+    text-decoration:none;
+    color:#bd806e;
 }
 
-a {
-  text-decoration: none;
-  color: #bd806e;
+a:hover{
+    color:#eda087;
+    transition:color .15s ease-in-out;
 }
 
-a:hover {
-  color: #eda087;
-  transition: color .15s ease-in-out;
+h1, h2{
+    font-family:"Great Vibes", cursive;
 }
 
-.cover {
-	background: url('url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat center;
-	background-size: cover;
-	height: 100 vh;
-	text-align: center;
-	display: table;
+h2{
+    font-size:3rem;
 }
 
-.hero-text-wrapper {
-  display: table-cell;
-  vertical-align: middle;
-	padding: 0. 625rem;
-}
-
-.hero-text h1 {
-  font-size: 3.15rem;
-  color: #d2ba87;
-	margin-bottom: auto;
-}
-.tagline {
-  font-size: 1.25rem;
-  letter-spacing: .15rem;
+h3{
+    font-size:1.5rem;
 }
 
 
+/*Header Styles*/
+.cover{
+  background:url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg')no-repeat center;
+  display:table;
+  width:100vw;  /*ez által "teljes" képernyős szélességben*/ /**header konténert kitöltő*/
+  height:100vh;  /*ez által "teljes" képernyős magasságban*/ /**header konténert kitöltő*/
+  text-align:center;
+}
+
+.wrapper-text{
+  display:table-cell;
+  vertical-align:middle;
+}
+
+/*hr{
+  align-items:center;
+  width:25%;
+}*/
+
+hr{
+  width:40%;
+  align-items:center;
+}
+
+/*.main-title::after{
+  display:block;
+  content: "";
+  background-color:white;
+  height:1px;
+  width:15rem;
+  margin:.5rem;
+  
+}
+*/
+
+
+.text{
+  margin:0 auto;
+  padding:.625rem;
+  color:hsla(0,0%,100%,.9);
+  background:hsla(100,0%,0%,.5);
+  width:70%;
+}
+
+.text h1{
+  font-size:3.15rem;
+  color: rgb(210, 187, 137);
+  margin-bottom:0;
+}
+ 
+.main-title{
+  font-size:1.125rem;
+  letter-spacing:.20rem;
+  text-transform:uppercase;
+}
+
+.date::before, .date::after{
+  display:inline-block;
+  content: "";
+  background-color:white;
+  height:1px;
+  width:1.5rem;
+  vertical-align:middle;  /*vízszintes vonal középre igazítás a dátum mellet*/
+  margin:0 .5rem;
+}
+
+.date{
+  font-size:1.25rem;
+  letter-spacing:.15rem;
+  vertical-align:middle;
+}
+
+.blurp img{
+  height:10rem;
+}
+
+.blurp h3{
+  font-weight:700;
+}
+
+.blurp{
+  font-family:'Muli', Arial;
+}
+
+.blurp::after{
+  content: "";
+  display:block;
+  height:.188rem;
+  width:25vw;
+  margin:1.5rem auto;
+  background-color: rgb(68, 67, 73);
+}
 
 
