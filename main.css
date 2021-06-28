@@ -150,6 +150,40 @@ hr{
   background-color: rgb(68, 67, 73);
 }
 
+@media (min-width: 768px) {
+
+  .cover {
+    background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat center/cover;
+  }
+
+}
+
+...
+
+
+@media (min-width: 768px) {
+
+  .hero-text {
+    padding: 1.25rem;
+    border-radius: 4px;
+    width: 50%;
+  }
+
+  .hero-text h1 {
+    font-size: 7rem;
+  }
+
+}
+
+...
+
+@media (min-width: 768px) {
+
+  .tagline {
+    text-transform: uppercase;
+  }
+
+}
 /* =============================
         PROGRAM STYLES
 =============================*/
@@ -175,6 +209,7 @@ hr{
 .program ul {
   letter-spacing: .025rem;
 }
+
 
 /* =============================
         GIFTS STYLES
@@ -225,6 +260,37 @@ hr{
 .answer {
   margin-bottom: 1.5rem;
 }
+
+@media (min-width: 768px) {
+
+
+@media (min-width: 768px){
+  .qgroup{
+    display:inline-block;  
+    width:30%;  
+    vertical-align:top;  
+    padding:1.5rem; 
+    margin:.5rem;  
+  }
+  .qgroup::after{
+    display:none;   
+  }
+  .qgroup h3{
+    text-align:left;  
+  }
+}
+
+	
+  .question-group::after {
+    display: none;
+  }
+
+  .question-group h3 {
+    text-align: top;
+  }
+
+}
+
 /* =============================
 
         FOOTER STYLES
@@ -255,3 +321,13 @@ footer p {
 footer small {
   line-height: 1.5;
 }
+
+  @media (min-width: 768px) {
+
+  footer {
+    min-height: 7vh;
+  }
+
+}
+
+
