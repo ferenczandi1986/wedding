@@ -192,4 +192,43 @@ hr{
   margin-bottom: 0;
 }
 
+/* =============================
+
+        FAQ STYLES
+
+=============================*/
+
+.faq {
+  background: hsla(100,0%,0%,.6);
+  color: #d2ba87;
+  width: 100vw;
+  text-align: center;
+}
+
+.faq h2 {
+  margin-top: 1rem; /* To even out top and bottom margins. */
+}
+
+.faq p {
+  font-family: 'Muli', sans-serif;
+  text-align: left;
+}
+
+.question-group::after {
+  content: "";
+  display: block;
+  height: .1875rem;
+  width: 50vw;
+  margin: 1.5rem auto;
+  background-color: #d2ba87;
+}
+
+.question {
+  font-weight: 700;
+  margin-bottom: .5rem;
+}
+
+.answer {
+  margin-bottom: 1.5rem;
+}
 
